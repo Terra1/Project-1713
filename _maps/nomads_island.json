@@ -1,0 +1,40 @@
+{
+	"version": 1,
+	"map_name": "Nomads Island",
+	"map_path": "map_files/Nomads_Island",
+	"map_file": "nomads_island.dmm",
+	"space_ruin_levels": 0,
+	"space_empty_levels": 0,
+	"planetary": 1,
+	"shuttles": {
+		"cargo": "cargo_box",
+		"ferry": "ferry_fancy",
+		"whiteship": "whiteship_box",
+		"emergency": "emergency_box"
+	},
+	"traits": [
+		{
+			"Up": true,
+			"Mining": true,
+			"Linkage": null,
+			"Gravity": true,
+			"Baseturf": "/turf/open/chasm/planet",
+			"No Parallax": true
+		},
+		{
+			"Down": true,
+			"Mining": true,
+			"Linkage": null,
+			"Gravity": true,
+			"Baseturf": "/turf/open/openspace/planet",
+			"No Parallax": true
+		}
+	],
+	"minetype": "none",
+	"blacklist_file": "iceruinblacklist.txt",
+	"job_changes": {
+		"Captain": {
+			"special_charter": "moon"
+		}
+	}
+}
