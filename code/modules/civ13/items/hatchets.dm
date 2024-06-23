@@ -1,4 +1,4 @@
-/obj/structure/flora/tree/attackby(var/obj/item/hatchet/flint/I, mob/living/user, params)
+/obj/structure/flora/tree/attackby(var/obj/item/hatchet/I, mob/living/user, params)
 	if(!istype(I))
 		return ..()
 	user.do_attack_animation(src)

@@ -77,6 +77,8 @@
 			act_result = is_left_clicking ? welder_act(user, tool) : welder_act_secondary(user, tool)
 		if(TOOL_ANALYZER)
 			act_result = is_left_clicking ? analyzer_act(user, tool) : analyzer_act_secondary(user, tool)
+		if(TOOL_HAMMER) // Project 1713
+			act_result = is_left_clicking ? hammer_act(user, tool) : hammer_act_secondary(user, tool)
 
 	if(!act_result)
 		return NONE
